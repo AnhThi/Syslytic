@@ -1,0 +1,78 @@
+@font-face{
+	font-family: 'OpenSans Bold';
+	src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
+}
+
+@font-face{
+	font-family: 'OpenSans Regular';
+	src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'OpenSans Light';
+	src: url('../fonts/OpenSans/OpenSans-Light.ttf');
+}
+/*====================================== NAVIGATION TOP =====================================================*/
+
+#nav_subProducts > ul > li > a, #nav_subCompany > ul > li > a, #nav_subSupport > ul > li > a{
+	transition: 0.2s ease 0s;
+}
+
+#nav_subProducts > ul > li > a:hover, #nav_subCompany > ul > li > a:hover, #nav_subSupport > ul > li > a:hover{
+	transform: translateY(4px);
+	background-color: transparent !important;
+}
+
+
+/*====================================== NAVIGATION BOTTOM =====================================================*/
+
+#nav_menu ul li a, #nav_social ul li a{
+	color: #333;
+}
+
+#nav_menu ul li a:hover,  #nav_social ul li a:hover{
+	color: #1946ba;
+}
+
+#nav_social ul li a{
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+#nav_social ul li:nth-child(1n) a i:hover{
+	cursor: pointer;
+	color: #3b579d;
+	transition-duration: 0.2s;
+}
+
+#nav_social ul li:nth-child(2n) a i:hover{
+	cursor: pointer;
+	color: #64a8f2;
+	transition-duration: 0.2s;
+}
+
+#nav_social ul li:nth-child(3n) a i:hover{
+	cursor: pointer;
+	color: #dd2c28;
+	transition-duration: 0.2s;
+}
+
+#nav_social ul li a i{
+	color: #7d7d7d;
+	transition: 0.2s ease 0s;
+}
+
+#nav_bottom > div > div > ul > li > a:hover{
+	background-color: #ffffff;
+}
+
+/*====================================== ========== =====================================================*/
+
+#div_meettheteam > div > ul > li, #div_whoweare > div > div > ul > li
+{
+	display: inline;
+    float: left;
+    margin-right: 2.0vw;
+    margin-left: 2.0vw;
+    margin-bottom: 30px;
+}

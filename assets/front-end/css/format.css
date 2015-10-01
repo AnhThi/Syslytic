@@ -1,0 +1,166 @@
+::-moz-placeholder {
+   text-indent: 12px;
+   color: #333333;
+}
+
+::-webkit-input-placeholder {
+   text-indent: 12px;
+   color: #333333;
+}
+
+::-webkit-file-upload-button {
+    background: #338fc2;
+    border: 0px;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 8px 41px;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        #div_meettheteam{
+            margin-top: 680px !important;
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        #div_meettheteam{
+            margin-top: 680px !important;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        #div_meettheteam{
+            margin-top: 680px !important;
+        } 
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        #div_meettheteam{
+            margin-top: 180px !important;
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        #div_meettheteam{
+            margin-top: 120px !important;
+        }
+    }
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+        
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+        
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+       
+    }
+a{
+	text-decoration: none !important;
+    outline: 0 !important;
+}
+
+
+p{
+    font-family: 'OpenSans Regular' !important;
+}
+
+body{
+    overflow-x: hidden !important;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+input[type=text]{
+    text-indent: 12px;
+}
+
+textarea{
+    resize: none;
+}
+
+.for_button{
+	border: 2px solid #9e9c9c;
+	background-color: #FFFFFF;
+}
+
+.for_TextBox{
+    height: 38px;
+    border: 3px solid #e5e5e5;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #e5e5e5;
+}
+
+.for_GrayText{
+	color: #909090 !important;
+}
+
+.for_Line{
+    width: 100%;
+    height: 1px;
+    background-color: #909090;
+    opacity: 0.4;
+}
+
+.for_Round{
+    border-radius: 100%;
+}
+
+.for_Tab{
+    width: 85vw !important; 
+    height: auto;
+    background-color: blue !important;
+}
+
+.for_MB10px{
+    margin-bottom: 5px !important;
+}
+
+.for_BgBlack{
+    background-color: #333333 !important;
+    color: #f9f9f9 !important;
+}
+
+.for_tran{
+    background-color: transparent;
+    border: 0px;
+}
+
+.ulcen { 
+    text-align:center; 
+}
+
+.ulcen ul { 
+    display:inline-table;
+}
+
+.ulcen ul li {
+    display:inline;
+}
